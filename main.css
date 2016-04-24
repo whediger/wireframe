@@ -1,13 +1,14 @@
 body {
-  padding: 12px;
+  margin: 0;
 }
 
 header {
-  width: 489px;
+  display: block;
+  width: 100%;
   height: 31px;
-  float: left;
-  margin-left: -12px;
-  margin-top: 17px;
+
+  margin-left: 10px;
+  margin-top: 12px;
 }
 
 h1 {
@@ -17,10 +18,13 @@ h1 {
 }
 
 div {
+
   clear: both;
   float: left;
-  height: 139px;
-  width: 499px;
+  margin-left: 13px;
+  margin-top: 15px;
+  height: 100px;
+  width: 555px;
   border: solid 2px black;
 }
 
