@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
 }
 
 h1 {
-  font-family: sans-serif;
+
   font-size: 27px;
 
 }
@@ -28,7 +29,34 @@ div {
   border: solid 2px black;
 }
 
-img {
+div span {
+  float: left;
+  margin-top: 13px;
+  margin-left: 20px;
+}
+
+div img {
+  margin-left: 12px;
+  margin-top: 10px;
+  float: left;
+  clear: left;
   height: 60px;
   width: 60px;
+}
+
+div button {
+  height: 20px;
+  width: 20px;
+}
+
+.button1, {
+  float: left;
+  clear: left;
+}
+
+.button2 {
+  display: inline-block;
+}
+label {
+  display: inline-block;
 }
